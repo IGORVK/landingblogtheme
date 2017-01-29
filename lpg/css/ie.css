@@ -1,0 +1,43 @@
+.carousel-control.right {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(enabled=false)";
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: no-repeat;}
+
+.carousel-control.left {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(enabled=false)";
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: no-repeat;}
+
+.site{
+	width: 1200px;
+	padding: 0;
+}
+
+.about-bg{
+	width: 1170px;
+}
+.container{
+	width: 1200px;
+}
+
+figure.gallery-item{
+	padding: 0;
+}
+
+.member-np{
+
+}
+
+.member{
+	float: right;
+	display:block;
+	width:100px;
+	height:68px;
+	margin-bottom: 40px;
+}
+
+.member img{
+
+	height: 68px;
+	width: 100px;
+}

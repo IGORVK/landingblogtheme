@@ -1,0 +1,232 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+  .container{
+    width: 100%;
+  }
+
+}
+@media only screen and (min-width: 1201px) {
+  .container{
+    width: 1200px;
+  }
+  .container-get-in-touch{
+    position: relative;
+  }
+  .forms_wrap{
+    position: absolute;
+    top: -335px;
+    right: 85px;
+    text-align: left;
+    background-color: #EAEAEA;
+    margin-bottom: 40px;
+    border: 1px solid #C1C1C1;
+    z-index: 100;
+  }
+
+}
+@media only screen and (max-width: 992px) {
+
+  .card-row{
+    text-align: center;
+  }
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 980px) {
+  .navbar-brand{
+    padding-left: 13px;
+  }
+
+
+}
+@media only screen and (min-width: 996px) {
+  .container-get-in-touch{
+    position: relative;
+  }
+  .forms_wrap{
+    position: absolute;
+    top: -376px;
+    right: 68px;
+    text-align: left;
+    background-color: #EAEAEA;
+    margin-bottom: 40px;
+    border: 1px solid #C1C1C1;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 25px;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  .navbar-right {
+    margin-right: -15px;
+  }
+
+  .container-featurette {
+    background-color: #fff;
+    padding-top: 165px;
+    padding-bottom: 70px;
+  }
+  .navbar>.container .navbar-brand {
+    margin-left: -5px;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .site-main {
+    max-width: 100%;
+  }
+  .content-area {
+    padding-top: 80px;
+    width: 100%;
+    float: none;
+  }
+
+  .widget-area {
+    padding-top: 0;
+    width: 35%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu{
+    padding: 0;
+  }
+  .navbar-brand img {
+    position: relative;
+    top: -10px;
+  }
+  a.navbar-brand{
+    float: right;
+  }
+
+  .container-featurette {
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 125px;
+  }
+
+  .carousel-caption {
+    right: 1%;
+    left: 1%;
+    padding-bottom: 5px;
+  }
+
+  div.carousel-caption  .discription{
+    display: none ;
+  }
+
+  .carousel-indicators{
+    bottom: -5px;
+  }
+  .lpg-header-address .icon-top{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .lpg-header-address span:hover::after {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    left: -140%; top: -160%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    padding: 5px 10px; /* Поля */
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .navbar-default .navbar-nav > li > a{
+    margin: 0;
+    padding-left: 25px;
+  }
+  .navbar-nav {
+    margin: 0;
+    padding: 7.5px -15px;
+    border-bottom: 1px solid #E7E7E7;
+  }
+
+  .navbar-default .navbar-nav > li.current_page_item > a {
+    border-bottom: none;
+    font-weight: bold;
+    color: #d42819;
+  }
+
+  .navbar-default .navbar-nav > li > a{
+    font-weight: bold;
+  }
+
+
+  .navbar-default .navbar-nav > li > a:hover{
+    color: #333;
+    font-weight: bold;
+  }
+
+  .navbar-collapse.in {
+    overflow-x: hidden;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .ournews-box {
+    width: 100%;
+  }
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .clients{
+    margin-top: 28px;
+  }
+  #myCarousel{
+    display: none;
+  }
+
+  .forms_wrap{
+    margin-top: 100px;
+  }
+  .container-home-article .post figure {
+    float: none;
+    text-align: center;
+    border: none;
+  }
+  .container-jumbotron h1{
+    font-size: 28px;
+  }
+  .container-jumbotron p{
+    font-size: 14px;
+  }
+
+  .container-home-article .post h1 {
+    float: none;
+    text-align: center;
+  }
+
+  .clients h1{
+    font-size: 1.5em;
+  }
+  .carousel-caption p:first-child{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+  a.navbar-brand{
+    float: left;
+  }
+}
+
